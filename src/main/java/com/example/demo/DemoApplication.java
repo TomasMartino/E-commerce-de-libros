@@ -69,7 +69,7 @@ public class DemoApplication {
         /* CREATE USERS */
         UserEntity userSantiago = UserEntity.builder()
                 .setUsername("santiago")
-                .setPassword("123")
+                .setPassword("$2a$10$02qIlKrebNMJ/fSTvFm5qOAVdM4Jc7woEb71ol4ig0xSG/tckSr8C")
                 .setIsEnabled(true)
                 .setAccountNoExpired(true)
                 .setAccountNoLocked(true)
@@ -79,7 +79,7 @@ public class DemoApplication {
 
         UserEntity userDaniel = UserEntity.builder()
                 .setUsername("daniel")
-                .setPassword("1232")
+                .setPassword("$2a$10$02qIlKrebNMJ/fSTvFm5qOAVdM4Jc7woEb71ol4ig0xSG/tckSr8C")
                 .setIsEnabled(true)
                 .setAccountNoExpired(true)
                 .setAccountNoLocked(true)
@@ -89,7 +89,7 @@ public class DemoApplication {
 
         UserEntity userAndrea = UserEntity.builder()
                 .setUsername("andrea")
-                .setPassword("1235")
+                .setPassword("$2a$10$02qIlKrebNMJ/fSTvFm5qOAVdM4Jc7woEb71ol4ig0xSG/tckSr8C")
                 .setIsEnabled(true)
                 .setAccountNoExpired(true)
                 .setAccountNoLocked(true)
@@ -99,7 +99,7 @@ public class DemoApplication {
 
         UserEntity userAnyi = UserEntity.builder()
                 .setUsername("anyi")
-                .setPassword("1234")
+                .setPassword("$2a$10$02qIlKrebNMJ/fSTvFm5qOAVdM4Jc7woEb71ol4ig0xSG/tckSr8C")
                 .setIsEnabled(true)
                 .setAccountNoExpired(true)
                 .setAccountNoLocked(true)
